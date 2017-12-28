@@ -17,10 +17,10 @@ endif()
 project(cpp17_demo)
 
 file(GLOB APPLICATION_HEADERS
-     ./*.hpp)
+     ./include/*.hpp)
 
 file(GLOB APPLICATION_SOURCES
-     ./*.cpp)
+     ./src/*.cpp)
 
 add_executable(${PROJECT_NAME}
                "${APPLICATION_HEADERS}"
