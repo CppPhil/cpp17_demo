@@ -1,0 +1,9 @@
+#ifndef INCG_CPP17_CORE_LANGUAGE_NESTED_NAMESPACE_HPP
+#define INCG_CPP17_CORE_LANGUAGE_NESTED_NAMESPACE_HPP
+
+namespace cpp17::core_language
+{
+void nestedNamespaceDemo();
+}
+#endif // INCG_CPP17_CORE_LANGUAGE_NESTED_NAMESPACE_HPP
+
