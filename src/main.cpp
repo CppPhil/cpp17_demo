@@ -1,19 +1,7 @@
-#include <iostream>
-
-struct S
-{
-    int i;
-    double d;
-};
-
-S f() noexcept
-{
-    return { 5, 1.0 };
-}
+#include "../include/core_language/static_assert_with_no_message.hpp" // cpp17::core_language::staticAssertWithNoMessageDemo
 
 int main()
 {
-   auto [i, d] = f();
-
-   std::cout << i << '\n' << d << '\n';
+    cpp17::core_language::staticAssertWithNoMessageDemo();    
 }
+
