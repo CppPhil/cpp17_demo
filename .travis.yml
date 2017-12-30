@@ -1,0 +1,33 @@
+dist: trusty
+sudo: false
+language: cpp
+
+notifications:
+  email:
+    recipients:
+      - 0f9234u9f0jw3@gmx.de
+    on_success: always
+    on_failure: always
+    
+addons:
+  apt:
+    sources: &apt_sources
+      - ubuntu-toolchain-r-test
+
+compiler: gcc
+on: linux
+
+matrix:
+  include:
+    # GCC 7
+    - env: COMPILER=g++-7
+      compiler: gcc
+      addons: &gcc7
+        apt:
+          packages: ["g++-7",     "g++-7-multilib",   "libc6-dbg", "libc6-dbg:i386", "linux-libc-dev", "linux-libc-dev:i386"]
+          sources: *apt_sources
+          
+script:
+  - bash ./build.sh
+  - ./cpp17_demo
+  
