@@ -19,6 +19,7 @@
 #include "../include/core_language/hexfloat.hpp" // cpp17::core_language::hexfloatDemo
 #include "../include/core_language/dynamic_memory_alignment.hpp" // cpp17::core_language::dynamicMemoryAlignmentDemo
 #include "../include/core_language/class_template_argument_deduction.hpp" // cpp17::core_language::classTemplateArgumentDeductionDemo
+#include "../include/core_language/auto_non_type_template_parameter.hpp" // cpp17::core_language::autoNonTypeTemplateParameterDemo
 #include <ios> // std::boolalpha
 #include <iostream> // std::cout
 
@@ -69,4 +70,5 @@ int main()
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::hexfloatDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::dynamicMemoryAlignmentDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::classTemplateArgumentDeductionDemo);
+    CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::autoNonTypeTemplateParameterDemo);
 }
