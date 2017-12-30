@@ -23,6 +23,7 @@
 #include "../include/core_language/constexpr_if.hpp" // cpp17::core_language::constexprIfDemo
 #include "../include/core_language/structured_bindings.hpp" // cpp17::core_language::structuredBindingsDemo
 #include "../include/core_language/variadic_using.hpp" // cpp17::core_language::variadicUsingDemo
+#include "../include/library/void_t.hpp" // cpp17::library::void_tDemo
 #include <ios> // std::boolalpha
 #include <iostream> // std::cout
 
@@ -77,4 +78,5 @@ int main()
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::constexprIfDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::structuredBindingsDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::variadicUsingDemo);
+    CPP17_CALL_DEMO_FUNCTION(cpp17::library::void_tDemo);
 }
