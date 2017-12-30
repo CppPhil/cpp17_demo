@@ -9,6 +9,7 @@ See the source files for details.
 deprecated_features.md lists deprecations introduced.  
 removed_features.md lists removals.  
 rewording.md lists wording changes.  
+others.md contains information regarding features not demonstrated in the source files.  
 
 ## Building
 To build the application use  
