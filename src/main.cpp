@@ -5,6 +5,7 @@
 #include "../include/core_language/utf8_literals.hpp" // cpp17::core_language::utf8LiteralsDemo
 #include "../include/core_language/nested_namespace.hpp" // cpp17::core_language::nestedNamespaceDemo
 #include "../include/core_language/attributes_namespace_enumerator.hpp" // cpp17::core_language::attributesNamespaceEnumeratorDemo
+#include "../include/core_language/constant_non_type_template_parameter_evaluation.hpp" // cpp17::core_language::constantNonTypeTemplateParameterEvaluationDemo
 #include <ios> // std::boolalpha
 #include <iostream> // std::cout
 
@@ -41,5 +42,5 @@ int main()
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::utf8LiteralsDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::nestedNamespaceDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::attributesNamespaceEnumeratorDemo);
+    CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::constantNonTypeTemplateParameterEvaluationDemo);
 }
-
