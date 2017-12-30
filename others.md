@@ -4,4 +4,5 @@ Using attribute namespaces without repetition: http://www.open-std.org/jtc1/sc22
 guaranteed copy elision: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0135r1.html  
 stricter expression evaluation order: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0145r3.pdf , http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0400r0.html  
 requirement to ignore unknown attributes: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0283r2.html  
+inline variables: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0386r2.pdf  
 ## standard library features

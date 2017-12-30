@@ -21,6 +21,7 @@
 #include "../include/core_language/class_template_argument_deduction.hpp" // cpp17::core_language::classTemplateArgumentDeductionDemo
 #include "../include/core_language/auto_non_type_template_parameter.hpp" // cpp17::core_language::autoNonTypeTemplateParameterDemo
 #include "../include/core_language/constexpr_if.hpp" // cpp17::core_language::constexprIfDemo
+#include "../include/core_language/structured_bindings.hpp" // cpp17::core_language::structuredBindingsDemo
 #include <ios> // std::boolalpha
 #include <iostream> // std::cout
 
@@ -73,4 +74,5 @@ int main()
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::classTemplateArgumentDeductionDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::autoNonTypeTemplateParameterDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::constexprIfDemo);
+    CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::structuredBindingsDemo);
 }
