@@ -13,6 +13,7 @@
 #include "../include/core_language/maybe_unused.hpp" // cpp17::core_language::maybeUnusedDemo
 #include "../include/core_language/aggregate_initialization_with_bases.hpp" // cpp17::core_language::aggregateInitializationWithBasesDemo
 #include "../include/core_language/constexpr_lambda.hpp" // cpp17::core_language::constexprLambdaDemo
+#include "../include/core_language/generalized_ranged_for.hpp" // cpp17::core_language::generalizedRangedForDemo
 #include <ios> // std::boolalpha
 #include <iostream> // std::cout
 
@@ -57,4 +58,5 @@ int main()
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::maybeUnusedDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::aggregateInitializationWithBasesDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::constexprLambdaDemo);
+    CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::generalizedRangedForDemo);
 }
