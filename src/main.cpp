@@ -16,6 +16,7 @@
 #include "../include/core_language/generalized_ranged_for.hpp" // cpp17::core_language::generalizedRangedForDemo
 #include "../include/core_language/lambda_deref_this.hpp" // cpp17::core_language::lambdaDerefThisDemo
 #include "../include/core_language/enum_direct_list_init.hpp" // cpp17::core_language::enumDirectListInitDemo
+#include "../include/core_language/hexfloat.hpp" // cpp17::core_language::hexfloatDemo
 #include <ios> // std::boolalpha
 #include <iostream> // std::cout
 
@@ -63,4 +64,5 @@ int main()
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::generalizedRangedForDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::lambdaDerefThisDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::enumDirectListInitDemo);
+    CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::hexfloatDemo);
 }
