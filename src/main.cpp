@@ -7,6 +7,7 @@
 #include "../include/core_language/attributes_namespace_enumerator.hpp" // cpp17::core_language::attributesNamespaceEnumeratorDemo
 #include "../include/core_language/constant_non_type_template_parameter_evaluation.hpp" // cpp17::core_language::constantNonTypeTemplateParameterEvaluationDemo
 #include "../include/core_language/pointer_to_noexcept_function.hpp" // cpp17::core_language::pointerToNoexceptFunctionDemo
+#include "../include/core_language/has_include.hpp" // cpp17::core_language::hasIncludeDemo
 #include <ios> // std::boolalpha
 #include <iostream> // std::cout
 
@@ -45,4 +46,5 @@ int main()
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::attributesNamespaceEnumeratorDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::constantNonTypeTemplateParameterEvaluationDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::pointerToNoexceptFunctionDemo);
+    CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::hasIncludeDemo);
 }
