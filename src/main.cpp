@@ -10,6 +10,7 @@
 #include "../include/core_language/has_include.hpp" // cpp17::core_language::hasIncludeDemo
 #include "../include/core_language/fallthrough.hpp" // cpp17::core_language::fallthroughDemo
 #include "../include/core_language/nodiscard.hpp" // cpp17::core_language::nodiscardDemo
+#include "../include/core_language/maybe_unused.hpp" // cpp17::core_language::maybeUnusedDemo
 #include <ios> // std::boolalpha
 #include <iostream> // std::cout
 
@@ -51,4 +52,5 @@ int main()
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::hasIncludeDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::fallthroughDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::nodiscardDemo);
+    CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::maybeUnusedDemo);
 }

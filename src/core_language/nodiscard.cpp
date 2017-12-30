@@ -50,6 +50,7 @@ void nodiscardDemo()
     // should warn
     isStatusOk();
 
+    // ok
     const bool status{ isStatusOk() };
     std::cout << "status: " << status;
 }
