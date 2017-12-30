@@ -22,6 +22,7 @@ struct Derived
     std::string s;
 };
 } // anonymous namespace
+
 void aggregateInitializationWithBasesDemo()
 {
     const Derived derived{ { 1, 5.5 }, "Hello World" };
