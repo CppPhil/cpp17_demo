@@ -7,4 +7,6 @@ requirement to ignore unknown attributes: http://www.open-std.org/jtc1/sc22/wg21
 inline variables: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0386r2.pdf  
 Selection statements with initializer: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0305r1.html  
 Matching template template parameters to compatible arguments: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0522r0.html  
+
 ## standard library features
+Safe conversions in `unique_ptr<T[]>`: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4089.pdf  
