@@ -4,7 +4,11 @@
 - CMake
 
 ## Information
-This application demonstrates core language and standard library changes introduced with the C++17 language standard.
+This application demonstrates core language and standard library changes introduced with the C++17 language standard.  
+See the source files for details.  
+deprecated_features.md lists deprecations introduced.  
+removed_features.md lists removals.  
+rewording.md lists wording changes.  
 
 ## Building
 To build the application use  
