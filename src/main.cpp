@@ -27,6 +27,7 @@
 #include "../include/library/invoke.hpp" // cpp17::library::invokeDemo
 #include "../include/library/improved_insertion_interface_for_unique_key_maps.hpp" // cpp17::library::improvedInsertionInterfaceForUniqueKeyMapsDemo
 #include "../include/library/non_member_size_and_more.hpp" // cpp17::library::nonMemberSizeAndMoreDemo
+#include "../include/library/as_const.hpp" // cpp17::library::asConstDemo
 #include <ios> // std::boolalpha
 #include <iostream> // std::cout
 
@@ -85,4 +86,5 @@ int main()
     CPP17_CALL_DEMO_FUNCTION(cpp17::library::invokeDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::library::improvedInsertionInterfaceForUniqueKeyMapsDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::library::nonMemberSizeAndMoreDemo);
+    CPP17_CALL_DEMO_FUNCTION(cpp17::library::asConstDemo);
 }
