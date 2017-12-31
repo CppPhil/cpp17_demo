@@ -10,3 +10,5 @@ Matching template template parameters to compatible arguments: http://www.open-s
 
 ## standard library features
 Safe conversions in `unique_ptr<T[]>`: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4089.pdf  
+std::uncaught_exceptions: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4259.pdf  
+

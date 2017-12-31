@@ -25,6 +25,7 @@
 #include "../include/core_language/variadic_using.hpp" // cpp17::core_language::variadicUsingDemo
 #include "../include/library/void_t.hpp" // cpp17::library::void_tDemo
 #include "../include/library/invoke.hpp" // cpp17::library::invokeDemo
+#include "../include/library/improved_insertion_interface_for_unique_key_maps.hpp" // cpp17::library::improvedInsertionInterfaceForUniqueKeyMapsDemo
 #include <ios> // std::boolalpha
 #include <iostream> // std::cout
 
@@ -81,4 +82,5 @@ int main()
     CPP17_CALL_DEMO_FUNCTION(cpp17::core_language::variadicUsingDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::library::void_tDemo);
     CPP17_CALL_DEMO_FUNCTION(cpp17::library::invokeDemo);
+    CPP17_CALL_DEMO_FUNCTION(cpp17::library::improvedInsertionInterfaceForUniqueKeyMapsDemo);
 }

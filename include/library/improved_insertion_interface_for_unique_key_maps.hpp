@@ -1,0 +1,11 @@
+#ifndef INCG_CPP17_LIBRARY_IMPROVED_INSERTION_INTERFACE_FOR_UNIQUE_KEY_MAPS_HPP
+#define INCG_CPP17_LIBRARY_IMPROVED_INSERTION_INTERFACE_FOR_UNIQUE_KEY_MAPS_HPP
+
+namespace cpp17
+{
+namespace library
+{
+void improvedInsertionInterfaceForUniqueKeyMapsDemo();
+} // namespace library
+} // namespace cpp17
+#endif // INCG_CPP17_LIBRARY_IMPROVED_INSERTION_INTERFACE_FOR_UNIQUE_KEY_MAPS_HPP
