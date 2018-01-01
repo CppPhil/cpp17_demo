@@ -12,4 +12,6 @@ Minimal incomplete type support for standard containers: http://www.open-std.org
 Polishing `<chrono>`: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0092r1.html  
 Making std::owner_less more flexible: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0074r0.html  
 Re-enabling shared_from_this: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0033r1.html  
+Removing C dependencies from signal handler wording: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0270r3.html  
+
 
